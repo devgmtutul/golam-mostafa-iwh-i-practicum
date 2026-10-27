@@ -56,3 +56,40 @@ input[type="submit"] {
     padding: .375rem 1rem;
     margin-top: 10px;
 }
+a {
+    display: inline-block;
+    margin: 0 1rem 1rem;
+    color: #ff7a59;
+    font-weight: bold;
+}
+
+table {
+    width: calc(100% - 2rem);
+    margin: 0 1rem;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.75rem;
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f8fa;
+}
+
+form {
+    max-width: 480px;
+    margin: 1rem;
+}
+
+button {
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    background-color: #ff7a59;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
